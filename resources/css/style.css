@@ -3,6 +3,7 @@ body {
   background-color: black;
   font-family: helvetica;
   font-size: 22px;
+  color: white;
   opacity: 0.9;
 }
 
@@ -10,20 +11,21 @@ body {
 
 header {
   display: inline-flex;
+  justify-content: space-between;
   position: fixed;
+  top: 0;
   z-index: 1;
   align-items: center;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
 
 .logo {
   display: flex;
-  flex-grow: 1;
   height: 50px;
   padding-left:10px;
-  width: 40px;
 }
 
 nav {
@@ -35,4 +37,21 @@ nav {
 
 nav span {
   padding: 15px;
+}
+
+  /*Mission*/
+main {
+  padding-top: 100px;
+  display: flex;
+  margin: 0 auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+}
+main .mission {
+  display: flex;
+  background-color: black;
+  width: inherit;
+  height: 80px;
 }
