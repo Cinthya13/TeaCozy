@@ -40,18 +40,50 @@ nav span {
 }
 
   /*Mission*/
+
 main {
   padding-top: 100px;
   display: flex;
+  align-items: center;
   margin: 0 auto;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   width: 1200px;
   height: 700px;
   justify-content: center;
 }
+
 main .mission {
-  display: flex;
+  display:flex;
+  justify-content: center;
   background-color: black;
   width: inherit;
-  height: 80px;
+  height: auto;
+}
+/*Tea of the Month*/
+.header-tea {
+  display: flex;
+  justify-content: center;
+}
+.tea-month {
+  flex-wrap: wrap;
+  justify-content:space-around;
+  width: 1000px;
+  display: flex;
+  align-items:center;
+  width: 1000px;
+  margin: 0 auto;
+
+}
+.tea-month img {
+  width: 300px;
+  height: 200px;
+}
+/*Locations*/
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+
 }
